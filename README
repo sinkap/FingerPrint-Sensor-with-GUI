@@ -2,7 +2,7 @@ This project was my college project. I had decided to make a fingerprint reader 
 
 *****Finger Print module hardware********
 
-The main challenge that i found was the inavailiblity of any serial protocol implementation for the SM-630 module. Incase you have such a module and want to interface it with your own project. You can use at LibFinger.h and SM630.h header files.
+The main challenge that i found was the in-availiblity of any serial protocol implementation for the SM-630 module. Incase you have such a module and want to interface it with your own project. You can use at LibFinger.h and SM630.h header files.
 
 *****************************************
 
@@ -12,11 +12,14 @@ The GUI was designed using QT. I compiled QT 4.6 using linux-arm-gcc. You can re
 
 What do i need to do?
 
-The file gui.pro opens in QT Creator. You need to have QT creator to build the prject. You can also manually edit to point to your compiled QT (Mine was compiled for an ARM target).
+The file gui.pro opens in QT Creator. You need to have QT creator to build the project. You can also manually edit to point to your compiled QT (Mine was compiled for an ARM target).
 
 ****************************************
 
 I will be adding more documentation and supporting users on a per-request basis.Feel free to mail me at kapileshwarsingh@gmail.com 
+
+******Tests*****************************
+I have tested this on ARM 9 and the compile host was A Fedora 13 and QT SDK version was 4.6. Do not try to compile with MAC as QT for MAC has some bugs in the linking stage. 
 
 
 
